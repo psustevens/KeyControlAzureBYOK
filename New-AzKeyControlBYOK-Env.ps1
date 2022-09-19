@@ -1,9 +1,20 @@
-# Created by: David Stevens (David_L_Stevens@hotmail.com)
-# Date: 9/19/2022
+# Created by: David Stevens 
+# Twitter: @PSUStevens
+# Initial Creation Date: 9/19/2022
+#
 # This script creates a demo environment for performing a demo of Entrust KeyControl
 # Specifically, the Azure BYOK feature. As of this date it is for KeyControl v5.5.1
 # See the sister script (Remove-AzKeyControlBYOK-Env.ps1) for destroying the demo environment in order to save resources/money.
-
+#
+# You will need to make sure you have the following installed on your machine:
+#   : PowerShell (latest version recommended)
+#   : Azure Az PowerShell module installed
+#
+# Refer to the documentation on how to install the Azure Az PowerShell module over at:
+# https://learn.microsoft.com/en-us/powershell/azure/install-az-ps
+#
+# You can also take your chances and run this command at a PowerShell prompt:
+# Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
 # Variables needed for constructing an Azure BYOK environment for a KeyControl
 # BYOK in Azure.
