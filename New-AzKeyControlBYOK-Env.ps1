@@ -2,6 +2,7 @@
 # Date: 9/19/2022
 # This script creates a demo environment for performing a demo of Entrust KeyControl
 # Specifically, the Azure BYOK feature. As of this date it is for KeyControl v5.5.1
+# See the sister script (Remove-AzKeyControlBYOK-Env.ps1) for destroying the demo environment in order to save resources/money.
 
 
 # Variables needed for constructing an Azure BYOK environment for a KeyControl
