@@ -1,4 +1,5 @@
-# Created by: David Stevens (David_L_Stevens@hotmail.com)
+# Created by: David Stevens
+# Twitter:  @PSUStevens
 # Date: 9/19/2022
 # This script destroys a demo environment for performing a demo of Entrust KeyControl
 # Specifically, the Azure BYOK feature. As of this date it is for KeyControl v5.5.1
