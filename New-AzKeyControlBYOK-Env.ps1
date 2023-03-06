@@ -20,13 +20,13 @@
 # BYOK in Azure.
 
 [String] $location = 'eastus'
-[String] $resourceGroupName = 'KeyControl-BYOK-RG1'
+[String] $resourceGroupName = 'dstevens-KeyControl-BYOK-RG'
 # [String] $storageAccountName = 'KeyControl-Storage-Acct'
-[String] $keyVaultName = 'KeyControl-BYOK-Vault1'
+[String] $keyVaultName = 'dstevens-KeyControl-BYOK-Vault'
 [Int32] $softDeleteRetention = 7
 [String] $RSAKeyName = 'Native-RSA-key-01'
 [String] $ECKeyName = 'Native-EC-key-01'
-[String] $appName = 'KeyControl-BYOK-App1'
+[String] $appName = 'dstevens-KeyControl-BYOK-App'
 
 
 Connect-AzAccount
