@@ -18,6 +18,7 @@
 
 # Variables needed for constructing an Azure BYOK environment for a KeyControl
 # BYOK in Azure.
+# You should change the username (dstevens) for each of the Azure resources to your username
 
 [String] $location = 'eastus'
 [String] $resourceGroupName = 'dstevens-KeyControl-BYOK-RG'
